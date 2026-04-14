@@ -1,0 +1,151 @@
+
+
+.sectionA {
+
+ background-color: #16171b;
+  max-width: 1200px;
+  margin: 0 auto;              /* centers the section itself */
+  
+  display: flex;               /* enables centering */
+  flex-direction: column;      /* keeps content stacked */
+  align-items: center;         /* centers horizontally */
+
+  overflow-x: hidden;
+  padding-bottom: 50PX;
+}
+
+
+
+.sectionA h2 {
+  font-family: "Quantico", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 45PX;
+  padding: 0%;
+  margin: 0%;
+
+}
+
+.sectionA h3 {
+  font-family: "Quantico", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5px;
+padding-bottom: 30PX;
+}
+
+
+.cutoff-scores-style {
+  gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 per row */
+  justify-content: center;
+}
+
+.cutoff-scores-button {
+  box-sizing: border-box;
+  padding: 15px 30px;
+  font-size: 25px;
+  font-family: "Quantico", sans-serif;
+}
+
+.cutoff-scores-button:hover {
+  color: #ffffff;
+  background-color: #3d6d4c;
+  /* darker on hover */
+  border-color: #5C946E;
+  /* subtle contrast */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+  transform: translateY(-2px);
+  /* slight lift effect */
+
+}
+
+
+.tab-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.tab-btn {
+   padding: 15px 30px;
+  background: #1e1f25;
+  border: none;
+  border-radius: 5px;
+  color: #ccc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+   font-size: 25px;
+  font-family: "Quantico", sans-serif;
+
+}
+
+.tab-btn:hover {
+  background: #2a2c33;
+  color: white;
+}
+
+.tab-btn.active {
+  background-color: #3d6d4c;
+  color: white;
+  font-weight: 600;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  background: #1e1f25;
+  border-radius: 10px;
+  animation: fadeIn 0.3s ease;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tab-content P {
+      white-space: pre-line;
+}
+
+
+
+
+
+.pro-tip {
+
+  border-left: 4px solid #5C946E; 
+  padding: 16px 20px;
+ background-color: #1dff6505;
+  color: #cfd3dc;
+  font-size: 14px;
+
+
+
+  max-width: 700px;
+  margin: 0 auto;              /* centers the section itself */
+  
+     margin-bottom: 50PX;
+  align-items: center;         /* centers horizontally */
+
+  overflow-x: hidden;
+
+font-family: "Quantico", sans-serif;
+}
+
+.pro-tip strong {
+  color: #5C946E;
+  font-weight: 600;
+}

@@ -1,0 +1,155 @@
+.background {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30PX;
+  max-width: 1200px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+    font-family: "Quantico", sans-serif;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post {
+  border-bottom: 1px solid #ddd;
+ background: #1e1f25;
+padding: 10px;
+border-radius: 5px;
+ position: relative;
+}
+
+.blog-img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+.post a {
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+  color: #5C946E;
+  
+}
+
+.post p {
+  margin: 5px 0 10px;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.next-button {
+  background: #3d6d4c;
+      font-family: "Quantico", sans-serif;
+      color: #ffffff;
+      
+}
+
+.dots {
+  color: #ffffff;
+}
+
+
+
+.sidebar {
+  font-family: "Quantico", sans-serif;
+  background: #1e1f25;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.sidebar h3 { 
+  margin-top: 0; 
+color: #ffffff;
+}
+.sidebar p {
+
+  color: #ffffff;
+}
+
+
+.blog-img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section2 {
+
+  max-width: 1200px;
+  padding: 0px 50px 0px 50px;
+  margin: 90px auto;
+  overflow-x: hidden;
+  display: block;
+
+
+}
+
+.section2 h2 {
+  font-family: "Quantico", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  font-size: 39PX;
+  padding: 0%;
+  margin: 0%;
+
+}
+
+.section2 h3 {
+  font-family: "Quantico", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+.cutoff-scores-style {
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 4 per row */
+  justify-content: center;
+}
+
+.cutoff-scores-button {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Quantico", sans-serif;
+}
+
+.cutoff-scores-button:hover {
+  color: #ffffff;
+  background-color: #3d6d4c;
+  /* darker on hover */
+  border-color: #5C946E;
+  /* subtle contrast */
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+  transform: translateY(-2px);
+  /* slight lift effect */
+
+}
