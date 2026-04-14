@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html, charset=utf-8" />
+    <title>Soldier's Creed - Army Values</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords"
+        content="Soldier's Creed, Army Values, 7 army values, seven army values, core army values, the army values" />
+    <meta name="description" content="The following is the Soldier's Creed" />
+    <meta property="og:image" name="og:image" content="/e2/images/rv7/values/fblike.jpg" />
+    <link rel="stylesheet" media="screen" type="text/css" href="/e2/css/rv7/values/values_rwd.css" />
+    <link rel="stylesheet" type="text/css" href="/e2/global/rv7/topnav/navbar.css">
+    <link rel="stylesheet" type="text/css" href="/e2/global/rv7/footer/footer.css">
+</head>
+
+<body>
+    <div id="share-bar"></div>
+    <div class="hide"> <a href="#maincontent">Skip to Main Content</a></div>
+    <div id="bg">
+        <div class="bkgdcontainer" style="background-image:url('/e2/images/rv7/values/bg/soldiers_creed.jpg')"></div>
+        <div id="container">
+            <div id="sidebar">
+                <ul id="soldiers" class="nav" role="navigation">
+                    <li><a class="values" href="index.html">The Army Values</a></li>
+                    <li><a class="warrior" href="warrior.html">Warrior Ethos</a></li>
+                    <li><a class="soldiers" href="soldiers.html">Soldier’s Creed</a></li>
+                    <li><a class="nco" href="nco.html">NCO Creed</a></li>
+                    <li><a class="ranger" href="ranger.html">Ranger Creed</a></li>
+                    <li><a class="corps" href="corps.html">Army Civilian Corps Creed</a></li>
+                    <li><a class="song" href="song.html">The Army Song</a></li>
+                    <li><a class="flag" href="flag.html">The Army Flag</a></li>
+                    <li><a class="oath" href="oath.html">Oath of Enlistment</a></li>
+                    <li><a class="officers" href="officers.html">Oath of Commissioned Officers</a></li>
+                    <li><a class="cadet" href="cadet.html">Army Cadet Song</a></li>
+                </ul>
+            </div> <a name="maincontent"></a>
+            <div id="mainText" role="main">
+                <div id="soldiers">
+                    <div class="soldiers item">
+                        <h2>Soldier’s Creed</h2>
+                        <div class="details">
+                            <ul>
+                                <li><a href="/e2/downloads/rv7/values/posters/creed.pdf" class="download"
+                                        onclick="_gaq.push(['_trackEvent','downloads','pdf','/e2/downloads/rv7/values/posters/creed.pdf',,!0])"><span
+                                            class="screenreader">Soldier’s Creed</span> Download Poster</a></li>
+                                <li class="download"><a href="/e2/images/rv7/values/bg/soldiers_creed.jpg"
+                                        target="_blank">Download Background Image</a></li>
+                            </ul>
+                        </div>
+                        <p>I am an American Soldier.</p>
+                        <p>I am a warrior and a member of a team.</p>
+                        <p>I serve the people of the United States, and live the Army Values.</p>
+                        <p>I will always place the mission first.</p>
+                        <p>I will never accept defeat.</p>
+                        <p>I will never quit.</p>
+                        <p>I will never leave a fallen comrade.</p>
+                        <p>I am disciplined, physically and mentally tough, trained and proficient in my warrior tasks
+                            and drills.</p>
+                        <p>I always maintain my arms, my equipment and myself.</p>
+                        <p>I am an expert and I am a professional.</p>
+                        <p>I stand ready to deploy, engage, and destroy, the enemies of the United States of America in
+                            close combat.</p>
+                        <p>I am a guardian of freedom and the American way of life.</p>
+                        <p>I am an American Soldier.</p>
+                        <div class="dash">
+                            <div id="addThis"></div>
+                        </div>
+                    </div>
+                    <div class="pageNav" role="navigation">
+                        <div class="left"> <a href="warrior.html"></a></div>
+                        <div class="right"> <a href="nco.html"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/e2/js/rv7/3rdparty/jquery/jquery.min.js"></script>
+    <script src="/e2/global/rv7/topnav/navbar.js"></script>
+    <script src="/e2/global/rv7/footer/footer.js"></script>
+    <script src="/e2/js/rv7/3rdparty/viimashare/jquery-social-share-bar-armydotmil.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-27189539-1"></script>
+    <script src="https://www.army.mil/e2/js/rv7/main/google_analytics4.js"></script>
+</body>
+
+</html>
+
+
+
+
+/**
+ * BEFORE UPLOADING CHANGES TO THIS FILE TO PRODUCION:
+ * - open the terminal console
+ * - navigate to folder containing this file
+ * - run "cat js/rv7/main/google_analytics4.js | openssl dgst -sha384 -binary | openssl base64 -A"
+ * - copy the resulting hash (excluding the "%" at the end)
+ * - replace it in the analytics blade on us-army-homepage
+ * - merge branches, submit for production review, and wait until pushed live
+ * - push this file to production and clear cache
+ */
+// Global site tag (gtag.js) - Google Analytics
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+// the Army.mil UA and GA4 codes
+gtag('config', 'UA-27189539-1');
+gtag('config', 'G-YQMQPQYJ4J');
+
+// finds any other GA codes found in the markup and adds them
+var codeEl = document.getElementById('ga-analytic-codes');
+var codes = (codeEl && codeEl.dataset.codes) ? codeEl.dataset.codes.split(',') : [];
+for (var i = 0; i < codes.length; i++) {
+  var cleanCode = codes[i].trim();
+  // do not duplicate the default Army.mil codes
+  if (cleanCode !== 'UA-27189539-1' && cleanCode !== 'G-YQMQPQYJ4J') {
+    // example: gtag('config', 'UA-27189539-1');
+    gtag('config', cleanCode);
+  }
+}
