@@ -1,0 +1,331 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shamcentral.com</title>
+  <link rel="stylesheet" href="css/aft.css" /> <!-- ADD PAGE ROOT CSS FILE -->
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="icon" type="image/png" href="picture/icon.png">
+
+</head>
+
+<Body>
+
+  <!-- HEADER -->
+  <div id="header"></div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1 class="hero-h1">Army Fitness Test</h1>
+    <p class="hero-p">Insights, tips, and real-world advice to help you stay informed, improve, and stay ahead.</p>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!-- SECTION A -->
+  <section class="background">
+    <h2 class="calculator-title1">AFT SCORE CALCULATOR
+    </h2>
+    <h3 class="calculator-title2">Calculate your Army Fitness Test scores instantly with the most accurate AFT
+      Calculator available. Built on official 2025 Army standards.</h3>
+    <div class="container">
+      <div class="posts">
+
+        <div class="gender-age">
+          <div class="gender-select">
+            <label for="age" class="label-text">GENDER</label>
+            <select id="genderSelect" class="gender-select">
+
+              <option value="male">Male / Combat</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+
+          <div class="age-select">
+            <label for="age" class="label-text">AGE</label>
+            <select id="ageSelect" class="age-select">
+
+              <option value="17-21">17-21</option>
+              <option value="22-26">22-26</option>
+              <option value="27-31">27-31</option>
+              <option value="32-36">32-36</option>
+              <option value="37-41">37-41</option>
+              <option value="42-46">42-46</option>
+              <option value="47-51">47-51</option>
+              <option value="52-56">52-56</option>
+              <option value="57-61">57-61</option>
+              <option value="62+">62+</option>
+            </select>
+          </div>
+        </div>
+
+
+
+
+
+        <!-- EVENT ONE --->
+
+        <div class="events">
+          <div class="events-1">
+            <div>
+              <img src="picture/mdl.png" class="events-img">
+            </div>
+            <div>
+              <h3>Maximum Dead Lift <br>[ MDL ]</h3>
+
+            </div>
+            <div class="value">
+              <p id="mdlValue"></p>
+
+            </div>
+            <div class="points">
+              <p id="mdlPoints"></p>
+
+            </div>
+          </div>
+          <div>
+            <input type="range" min="60" max="350" value="0" class="slider" id="mdlSlider">
+
+          </div>
+
+        </div>
+
+
+
+        <!-- EVENT TWO --->
+
+        <div class="events">
+          <div class="events-1">
+            <div>
+              <img src="picture/hrp.png" class="events-img">
+            </div>
+            <div>
+              <h3>Hand Release Pushup <br>[ HPR ]</h3>
+
+            </div>
+            <div class="value">
+              <p id="hrpValue"></p>
+
+            </div>
+            <div class="points">
+              <p id="hrpPoints"></p>
+
+            </div>
+          </div>
+          <div>
+            <input type="range" min="0" max="62" value="0" class="slider" id="hrpSlider">
+
+          </div>
+
+        </div>
+
+
+
+        <!-- EVENT THREE --->
+
+        <div class="events">
+          <div class="events-1">
+            <div>
+              <img src="picture/sdc.png" class="events-img">
+            </div>
+            <div>
+              <h3>Sprint Drag Carry <br>[ SDC ]</h3>
+
+            </div>
+            <div class="value">
+              <p id="sdcValue"></p>
+
+            </div>
+            <div class="points">
+              <p id="sdcPoints"></p>
+
+            </div>
+          </div>
+          <div>
+            <input type="range" min="0" max="62" value="0" class="slider" id="sdcSlider">
+
+          </div>
+
+        </div>
+
+
+
+        <!-- EVENT FOUR --->
+
+        <div class="events">
+          <div class="events-1">
+            <div>
+              <img src="picture/plk.png" class="events-img">
+            </div>
+            <div>
+              <h3>PLANK <br>[ PLK ]</h3>
+
+            </div>
+            <div class="value">
+              <p id="plkValue"></p>
+
+            </div>
+            <div class="points">
+              <p id="plkPoints"></p>
+
+            </div>
+          </div>
+          <div>
+            <input type="range" min="0" max="62" value="0" class="slider" id="plkSlider">
+
+          </div>
+
+        </div>
+
+
+
+
+        <!-- EVENT FIVE --->
+
+        <div class="events">
+          <div class="events-1">
+            <div>
+              <img src="picture/2mr.png" class="events-img">
+            </div>
+            <div>
+              <h3>Two Mile Run <br>[ 2MR ]</h3>
+
+            </div>
+            <div class="value">
+              <p id="twomrValue"></p>
+
+            </div>
+            <div class="points">
+              <p id="twomrPoints"></p>
+
+            </div>
+          </div>
+          <div>
+            <input type="range" min="0" max="62" value="0" class="slider" id="twomrSlider">
+
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+      <div class="sidebar">
+        <div class="sidebar-top">
+          <h3>Total Score</h3>
+          <div class="circle-wrap">
+            <svg class="progress-ring" width="120" height="120">
+              <circle class="progress-ring-bg" cx="60" cy="60" r="50" />
+              <circle class="progress-ring-fill" cx="60" cy="60" r="50" id="progressCircle" />
+            </svg>
+
+            <div class="circle-text" id="totalScore">0</div>
+
+
+
+
+            
+          </div>
+           <h3 id="statusText">passed!</h3>
+          
+        </div>
+
+        <div class="sidebar-bottom">
+          <h3>Recent Posts</h3>
+          <p>Getting Started</p>
+          <p>Weekly Update</p>
+          <p>Tips & Tricks</p>
+        </div>
+
+
+
+      </div>
+
+
+
+  </section>
+
+
+
+
+<section>
+  <h2 >ARMY FITNESS TEST EVENTS</h2>
+   <h3>ARMY FITNESS TEST SCORE CHARTS</h3>
+   <div>
+   
+   </div>
+</section>
+
+
+
+
+
+
+<section>
+  <h2 >ARMY FITNESS TEST SCORE CHARTS</h2>
+   <h3>ARMY FITNESS TEST SCORE CHARTS</h3>
+   <div>
+    
+   </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- FOOTER -->
+  <div id="footer"></div>
+
+</Body>
+<script src="script/global.js"></script>
+<script src="script/aft.js"></script>
+
+
+</html>
